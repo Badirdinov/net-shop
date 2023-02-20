@@ -1,0 +1,108 @@
+.navbar {
+    .menu_bar {
+        background: #060F42;
+        padding: 8px 0;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .navLinks {
+                display: flex;
+                align-items: center;
+                gap: 26px;
+            }
+
+            .fromUser {
+                display: flex;
+                align-items: center;
+                gap: 39px;
+            }
+
+
+            .icon {
+                color: #fff;
+            }
+
+            nav {
+                display: flex;
+            }
+
+        }
+    }
+
+    .nav_bottom {
+        padding: 23px 0;
+        display: flex;
+        align-items: center;
+
+        .searchBox {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            .searchBtn {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #01579B;
+                border-radius: 0px 4px 4px 0px;
+                padding: 8px;
+                color: #F4F8FB;
+
+            }
+
+            input {
+                padding: 0px 0px 0px 12px;
+                width: 758px;
+                height: 42px;
+                background: #FFFFFF;
+                border: 1px solid #E6E6E6;
+                border-radius: 4px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+}
+
+
+.btnBig {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F4F8FB;
+}
+
+.btns {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F4F8FB;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .btn:hover {
+        color: #adadad;
+    }
+}
+
+.btnCatalog {
+    padding: 15px 12px;
+    background: #06A56C;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: #F4F8FB;
+    gap: 10px;
+
+    &:hover {
+        background: #1fbd83;
+    }
+}
